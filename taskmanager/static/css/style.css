@@ -8,6 +8,11 @@ main {
     flex: 1 0 auto;
 }
 
+/* NAVBAR */
+.brand-logo {
+    margin-left: 25px;
+}
+
 /* MODAL */
 
 .modal {
