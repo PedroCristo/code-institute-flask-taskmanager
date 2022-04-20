@@ -28,11 +28,11 @@
     <div id="modal-{{ category.id }}" class="modal">
       <div class="modal-content">
         <h4>Delet Category</h4>
-        <p>Are you sure You wanna delete the <span class="green">{{ category.category_name }} </span> category?</p>
+        <p>Are you sure to delete the <span class="red-text">{{ category.category_name }} </span> category?</p>
       </div>
       <div class="modal-footer">
         <a href="{{ url_for('delete_category', category_id=category.id) }}" class="btn red">Delete</a>
-        <a id="exit_model" class="btn green accent-4 modal-trigger">Exit</a>
+        <a class="btn green accent-4 modal-trigger" href="#modal">Exit</a>
       </div>
     </div>
     {% endfor %}

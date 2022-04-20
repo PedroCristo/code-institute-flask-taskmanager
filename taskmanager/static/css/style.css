@@ -7,3 +7,21 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+/* MODAL */
+
+.modal {
+    color: #fff;
+    border: 5px solid red;
+    border-radius: 15px;
+    padding: 50px 0;
+}
+
+.modal,
+.modal-footer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.modal-footer {
+    text-align: center !important;
+}
